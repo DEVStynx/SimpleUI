@@ -43,10 +43,11 @@ public class SimplePanel extends JPanel {
         this.add(component);
         return component;
     }
-    public void addWidgets(Component[] components) {
+    public Component[] addWidgets(Component[] components) {
         for (Component component: components) {
             this.add(component);
         }
+        return components:
     }
 
 
