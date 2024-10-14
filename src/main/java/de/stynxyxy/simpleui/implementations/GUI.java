@@ -13,32 +13,32 @@ public class GUI extends JFrame implements GUIInterface {
 
     SimplePanel panel;
 
-    /*
+    /**
     * @param title The Title of The GUI
     * @info creates a new GUI INSTANCE
-    * */
+    * **/
     public GUI(String title) {
         super(title);
 
         initGUI(BorderFactory.createEmptyBorder(100,100,100,100),new GridLayout(0,1));
     }
 
-    /*
+    /**
      * @param title The Title of The GUI
      * @param border The Border Variable/Option of The GUI
      * @param manager The Layout of The GUI
      * @info creates a new GUI INSTANCE
-     * */
+     * **/
     public GUI(String title,Border border, LayoutManager manager) {
         super(title);
 
         initGUI(border,manager);
     }
-    /*
+    /**
      * @param title The Title of The GUI
      * @param panel The Standart Panel of the GUI
      * @info creates a new GUI INSTANCE
-     * */
+     * **/
     public GUI(String title, SimplePanel panel) {
         super(title);
 
